@@ -1,3 +1,28 @@
+<h1>📦 Stok Barang - Dengan Metode Algoritma Sequential Search</h1>
+
+🚀 This Laravel Project Outline
+Follow these steps to run this project on local:
+
+1️⃣ Clone Repository
+git clone https://github.com/odhi99/stokbarang_SequintialSearch.git
+cd stokbarang_SequintialSearch
+
+2️⃣ Install Dependensi
+composer install
+npm install
+
+3️⃣ Configure Environment
+Copy the .env.example file into .env and adjust the database configuration:
+cp .env.example .env
+php artisan key:generate
+
+4️⃣ Database Setup
+Create a new database and run migration:
+php artisan migrate --seed
+
+5️⃣ Run the Server
+php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
